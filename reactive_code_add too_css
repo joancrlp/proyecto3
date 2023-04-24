@@ -1,0 +1,71 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+__________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+@media only screen and (max-width: 767px) {
+  /* Estilos para pantallas pequeñas */
+  .laterali img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: -25px;
+    margin-left: 0;
+  }
+  
+  .laterald img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-top: -1300px;
+    margin-left: 0;
+  }
+  
+  .mandalorian img {
+    width: 100%;
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    margin-left: 0;
+  }
+  
+  .bodytext {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 4%;
+    font-size: 16px;
+  }
+  
+  .mandoimg img {
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  
+  .newstitle {
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 24px;
+  }
+  
+  .newsletter {
+    margin-top: 30px;
+  }
+}
+
+#titleimg {
+    max-width: 100%;
+    height: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.col-md-4 {
+  flex-basis: calc(33.3333% - 30px);
+  margin-bottom: 30px;
+}
