@@ -1,95 +1,97 @@
-  .default-header-color img{
-    height: 220px;
-    margin-bottom: 20px;
-    width: 100%;
-    margin-top: -11px;
+
+
+.default-header-color img{
+ height: 220px;
+ margin-bottom: 20px;
+ width: 100%;
+ margin-top: -11px;
 
 }
 
 
 
 .logo img{
-    position: absolute;
-    height: auto;
-    width: 500px;
-    object-position:50% 50%;
-    margin-top: -260px;
-    margin-left: 750px;
+ position: absolute;
+ height: auto;
+ width: 500px;
+ object-position:50% 50%;
+ margin-top: -260px;
+ margin-left: 750px;
 
 }
 .lhorizontal {
-  list-style-type: none;
-  display: flex; /* Utilizamos flexbox para alinear los elementos en una línea */
-  list-style-type: none; /* Quitamos los puntos de la lista */
-  padding: 0; /* Quitamos el relleno por defecto de la lista */
+ list-style-type: none;
+ display: flex; /* Utilizamos flexbox para alinear los elementos en una línea */
+ list-style-type: none; /* Quitamos los puntos de la lista */
+ padding: 0; /* Quitamos el relleno por defecto de la lista */
 
-  }
+ }
 
 .ehome {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  color: #ff0000;
-  text-decoration: none;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: #ff0000;
+ text-decoration: none;
 }
 
 li {
-  margin-right: 40px; /* Agregamos un margen derecho entre los elementos para dar espacio */
+ margin-right: 40px; /* Agregamos un margen derecho entre los elementos para dar espacio */
 }
 
 .header-links{
-    position: absolute;
-    margin-top:-86px;
-    margin-left: -11px;
-    margin-right: -10px;
-    padding: 5px;
-    text-decoration: none;
+ position: absolute;
+ margin-top:-86px;
+ margin-left: -11px;
+ margin-right: -10px;
+ padding: 5px;
+ text-decoration: none;
 }
 .lhorizontal {
-    outline: 2px solid rgba(255, 255, 255, 0.5); /* establece el borde horizontal */
+ outline: 2px solid rgba(255, 255, 255, 0.5); /* establece el borde horizontal */
 
-    /*border-top: 2px solid rgba(255, 255, 255, 0.5);
-    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
-    border-left: 2px solid rgba(255, 255, 255, 0.5); /* estilo de borde en la izquierda */
-    /*border-right: 2px solid rgba(255, 255, 255, 0.5); /* estilo de borde en la derecha */
-    padding-left: 740px;
-    padding-right: 567px;
-    padding-top: -0px; /* ajusta el espacio superior */
-    padding-bottom: -0px; /* ajusta el espacio inferior */
+ /*border-top: 2px solid rgba(255, 255, 255, 0.5);
+ border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+ border-left: 2px solid rgba(255, 255, 255, 0.5); /* estilo de borde en la izquierda */
+ /*border-right: 2px solid rgba(255, 255, 255, 0.5); /* estilo de borde en la derecha */
+ padding-left: 740px;
+ padding-right: 567px;
+ padding-top: -0px; /* ajusta el espacio superior */
+ padding-bottom: -0px; /* ajusta el espacio inferior */
 }
 .lhorizontal {
 
-    font-size: 25px; /* Tamaño de fuente deseado */
-    color: #white; /* Color de texto deseado */
+ font-size: 25px; /* Tamaño de fuente deseado */
+ color: #white; /* Color de texto deseado */
 
 }
 .header-links:hover{
-    color:wheat; /*no va */
+ color:wheat; /*no va */
 }
 
 .laterali img{
-    height: 1315px;
-    width: 17%;
-    position: absolute;
-    margin-top: -25px;
-    margin-left: -10px;
+ height: 1315px;
+ width: 17%;
+ position: absolute;
+ margin-top: -25px;
+ margin-left: -10px;
 }
 
 .laterald img{
-    height: 1315px;
-    width: 19%;
-    position: absolute;
-    margin-top: -1300px;
-    margin-left: 1191px;
+ height: 1315px;
+ width: 19%;
+ position: absolute;
+ margin-top: -1300px;
+ margin-left: 1191px;
 }
 
 .intro{
-    color:black;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-    font-weight: bolder;
+ color:black;
+ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-align: center;
+ font-weight: bolder;
 }
 
 .title{
-    text-align: center;
+ text-align: center;
 }
 
 
@@ -98,49 +100,61 @@ li {
 
 
 body{
-    background-image: url("./img/fondo.png");
-    background-color: #282323;
+ background-image: url("./img/fondo.png");
+ background-color: #282323;
 
 
 }
 
 #titleimg{
-    width: 1000px;
+ width: 1000px;
 }
 
 
 .newstitle{
-    position: absolute;
-    color:rgb(246, 246, 246);
-    margin-right: 20%;
-    margin-left: 18%;
-    font-size: 30px;
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ position: absolute;
+ color:rgb(246, 246, 246);
+ margin-right: 20%;
+ margin-left: 18%;
+ font-size: 30px;
+ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
 }
+@media screen and (max-width: 768px) {
+  .newstitle {
+    color: red;
+  }
+}
 
-
+@media screen and (max-height: 768px) {
+  .newstitle {
+    color: red;
+  }
+}
 
 .mandalorian img {
-    width: 1170px;
-    height: 200px;
-    padding-left: 2412px;
-    padding-right: 10px;
-    margin: 0 -1500px;
-    text-align: center;
-    margin-left:-110%;
 
-
+ width: 1170px;
+ height: 200px;
+ padding-left: 2412px;
+ padding-right: 10px;
+ margin: 0 -1500px;
+ text-align: center;
+ margin-left:-110%;
+ }
+@media screen and (max-width: 768px) {
+  .mandalorian img {
+    margin-left: -110%;
   }
-
+}
 .bodytext{
-    font-size: 9px;
-    text-align: justify;
-    margin-left: 340px;
-    margin-right: 380px;
-    margin-top: 4%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: wheat
+ font-size: 9px;
+ text-align: justify;
+ margin-left: 340px;
+ margin-right: 380px;
+ margin-top: 4%;
+ font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ color: wheat;
 }
 
 .mandoimg img {
@@ -149,92 +163,190 @@ width: 500px;
 height: auto;
 margin-left: 30px;
 margin-top: 5px;
+object-position: right;
 }
 
 .newsletter{
-    text-align: center;
+ text-align: center;
 
 }
 table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
+ font-family: arial, sans-serif;
+ border-collapse: collapse;
+ width: 100%;
 }
 
 td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 8px;
+ border: 1px solid #dddddd;
+ text-align: left;
+ padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: black;
+ background-color: black;
 }
 /* Estilos para el footer */
 footer {
-  background-color: #282323;
-  color: #fff;
-  padding: 0px 0;
-}
-
-.container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+ background-color: #282323;
+ color: #fff;
+ padding: 0px 0;
 }
 
 .row {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
 }
 
 .col-md-4 {
-  flex-basis: calc(33.3333% - 30px);
+ flex-basis: calc(33.3333% - 30px);
 }
 
 h3 {
-  font-size: 18px;
-  font-weight: bold;
+ font-size: 18px;
+ font-weight: bold;
 }
 
 p {
-  font-size: 16px;
+ font-size: 16px;
 }
 
 ul {
-  list-style-type: none;
-  padding: 0;
+ list-style-type: none;
+ padding: 0;
 }
 
 ul li {
-  margin-bottom: 10px;
+ margin-bottom: 10px;
 }
 
 ul li a {
-  color: #fff;
-  text-decoration: none;
+ color: #fff;
+ text-decoration: none;
 }
 
 ul li a:hover {
-  text-decoration: underline;
+ text-decoration: underline;
 }
 
 .fa {
-  margin-right: 5px;
+ margin-right: 5px;
 }
 
 .text-center {
-  text-align: center;
+ text-align: center;
 }
 
 .fa-instagram {
-  weight: 50px;
-  height: 50px;
+ weight: 50px;
+ height: 50px;
 
 }
 .fa-twitter {
-  weight: 50px;
-  height: 50px;
+ weight: 50px;
+ height: 50px;
 
 }
+
+
+
+
+
+.cajadecomentarios{
+    float :right;
+    text-align:center;
+
+}
+
+
+.commentinput #comment-box, #nombre, #texto{
+    border: none;
+    border-radius: 20px;
+    width: 1000px;
+    height: 200px;
+    margin-left: 50px;
+    margin-right: 500px;
+    margin-top: 50px;
+    padding-left: 20px;
+}
+.commentinput #comment-box {
+  background-color: #e6e6e6 ; /* color verde */
+  color: black; /* texto en color blanco */
+  font-size: 16px; /* tamaño de letra de 16 píxeles */
+  padding: 10px 20px; /* espaciado de 10 píxeles arriba y abajo, y 20 píxeles a la izquierda y derecha */
+  border-radius: 5px; /* botón con bordes redondeados de 5 píxeles */
+  box-shadow: 2px 2px 4px #888888; /* sombra de 2 píxeles hacia la derecha, 2 píxeles hacia abajo, 4 píxeles de difuminado y color gris oscuro */
+
+
+}
+
+
+.commentinput  #posting{
+  border: none;
+  border-radius: 20px;
+  width: 1000px;
+  height: 200px;
+  margin-left: 50px;
+  margin-right: 500px;
+  margin-top: 50px;
+  background-color: #e6e6e6 /* color verde */
+  color: #e6e6e6; /* texto en color blanco */
+  font-size: 16px; /* tamaño de letra de 16 píxeles */
+  padding: 10px 20px; /* espaciado de 10 píxeles arriba y abajo, y 20 píxeles a la izquierda y derecha */
+  border-radius: 5px; /* botón con bordes redondeados de 5 píxeles */
+  box-shadow: 3px 3px 4px #888888; /* sombra de 2 píxeles hacia la derecha, 2 píxeles hacia abajo, 4 píxeles de difuminado y color gris oscuro */
+
+
+
+}
+
+.commentinput #nombre{
+    width: 200px;
+    height: 50px;
+    padding-left: 20px;
+    border-radius: 10px 10px;
+}
+.commentinput #posting{
+    width: 200px;
+    height: 50px;
+}
+
+.commentinput #texto{
+    color: wheat;
+    margin-bottom: -150px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+/*
+#post:hover{
+    background-color: deeppink;
+}
+.comments{
+    color:white;
+}
+*/
+
+.registerandlogin {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .registerandlogin input[type=button] {
+    border: none;
+    color: rgb(210, 26, 26);
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  #login {
+    margin-right: 5px;
+    margin-top: 38px;
+  }
