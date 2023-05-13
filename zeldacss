@@ -111,11 +111,22 @@ li {
  text-align: center;
 }
 
-
-
-
-
-
+iframe[Estilo de atributos] {
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    height: 100%;
+    width: 100%;
+}
+iframe {
+    overflow-clip-margin: content-box !important;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    overflow: clip !important;
+}
 body{
  background-image: url("./img/fondo.png");
  background-color: #5e63a3;
