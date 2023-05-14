@@ -111,12 +111,14 @@ require("conexfinal.php");
 	</div>
 
 
+    <h1 class="bienvenida">
+      ¡Bienvenido/a a nuestra página web sobre noticias de anime, películas y guías de videojuegos! Aquí encontrarás toda la información más relevante sobre tus pasatiempos favoritos, así como reseñas, noticias de última hora y todo lo que necesitas saber para mantenerte actualizado/a en el mundo del entretenimiento. ¡Esperamos que disfrutes tu experiencia en nuestro sitio y encuentres la información que estás buscando!
+    </h1>
 
 
-	<div class="mandalorian">
-    	<h4 class="newstitle">  El primer tráiler de la temporada 3 de 'The Mandalorian' viaja a Mandalore, amplia el alcance de la serie y revela fecha  </h4>
-    	<img src="./img/the-mandalorian-tv-4k-0b-2560x1080.jpg">
-	</div>
+
+    	<h4 class="newstitle"> Noticias destacadas  </h4>
+
 
 
   <div class="maii">
@@ -138,6 +140,10 @@ require("conexfinal.php");
         <h1 class="kimetsucol"> ¿Cuándo se estrena el próximo capítulo de Kimetsu no Yaiba? Este es el calendario para la temporada 3 del anime</h1>
         <img src="./img/portada1.jpg">
       </div>
+      <div class="swiper-slide" role="group" aria-label="4 / 9" style="width: 442.333px; margin-right: 30px;">
+        <h1 class="sxfcol"> Spy x Family tendrá segunda temporada y película</h1>
+        <img src="./img/portada5.jpg">
+      </div>
 
     </div>
     <div class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal"><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 1" aria-current="true"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiperpagination bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 6"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 7"></span></div>
@@ -149,33 +155,9 @@ require("conexfinal.php");
 
 	<div class="bodytext">
 
+
         	<br>
         	</br>
-          <h1>También parece que conoceremos en profundidad a la sociedad mandaloriana, desde las posiciones más integristas a los más tolerantes. "Ser un mandaloriano no es solo aprender a pelear" dice el personaje de Pedro Pascal, y parece que ahondaremos en esa filosofía.
-           Entre los directores que tiene esta nueva temporada destaca Lee Isaac Chung, cineasta que estuvo nominado este año al Oscar por 'Minari'. A él se suman Rick Famuyiwa, Rachel Morrison, Carl Weathers, Peter Ramsey y Bryce Dallas Howard, actriz que ya ha despuntado como directora en algunos de los episodios más notorios 'El libro de Boba Fett', donde reaparecía Din Djarin.
-          <br></br>En su relativamente corta vida, 'The Mandalorian' ha dado ya unos cuantos tumbos: arrancó con una primera temporada que sorprendió por funcionar de forma absolutamente ajena al laberinto de continuidades de 'Star Wars'. Sacaba buen partido, por supuesto, de la abundante mitología de la franquicia, sobre todo la que está vinculada en torno a Tatooine, pero respiraba a su propio ritmo.
-           La esencia de esa primera temporada era Grogu, a quien conocimos como Baby Yoda durante tanto tiempo. Su físico recordaba a uno de los personajes indiscutiblemente más memorables de la trilogía original, pero estaba dotado de una personalidad única, lo que que le convirtió a su vez en un icono por derecho propio. Y todo reforzado por un tono a medio camino entre el western desértico y las historias de espada y brujería de Robert E. Howard con el que la saga había experimentado puntualmente, pero que nunca había eclosionado con tan buen tino.
-
-           </h1>
-
-    <br></br>  <h2 class="indice"> Las historias que terminan y empiezan en la tercera temporada de The Mandalorian </h2>
-        <div class="indicecontenido">
-          <br>
-          </br>
-          <br>
-          </div>
-          <h1>
-            Algo que fue obvio en su cierre de la tercera temporada de The Mandalorian. El episodio fue un tributo directo a la trilogía original, que convirtió varias de sus grandes secuencias en una batalla simbólica entre bien y el mal. Al mismo tiempo, recordó que la Space Opera más querida del cine siempre fue un argumento basado en las emociones. </h1>
-            <div class = "mandoimg">
-                <img src = "./img/baby-yoda.png" alt="manda"> </src>
-            </div>
-            <h1>
-            De modo que volvió de manera parcial a sus comienzos: la trama entre el cazarrecompensas y su pequeño protegido. Din Djarin (Pedro Pascal) salvó su vida en un enfrentamiento contra el Moff Gideon (Giancalo Esposito) y, finalmente, ocupó su lugar como padre de Grogu. En cierta medida, un cierre apropiado y sensible para una etapa de la serie.
-
-          </h1>
-
-
-
 
       <div class="lateraldzelda">
           <img src="./img/laterales.PNG">
