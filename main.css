@@ -1,8 +1,17 @@
 
-
+.bienvenida {
+  font-size: 20px;
+  text-align: justify;
+  margin-left: 345px;
+  margin-right: 355px;
+  margin-top: 0%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: rgb(0, 0, 0);
+}
 /*
 codigo image slider
   */
+
 .maii {
   width: 1246px;
   height: 50vh;
@@ -10,15 +19,16 @@ codigo image slider
   position: relative;;
   overflow: hidden;
   background: #5e63a3;
-  margin-top: 100px;
+  margin-top: 90px;
   margin-left: 314px;
+  margin-bottom: -30px;
 
 }
 .swiper-slide h1{
   position: absolute;
 
 }
-.mandacol {
+.sxfcol {
   color: white;
 }
 
@@ -30,7 +40,7 @@ codigo image slider
 }
 
 .kimetsucol {
-  color: black;
+  color: white;
 }
  .swiper {
       width: 100%;
@@ -152,14 +162,8 @@ li {
  color:wheat; /*no va */
 }
 
-.laterali img{
- height: 3000px;
- width: 17%;
- max-width: 17%;
- position: absolute;
- margin-top: -25px;
- margin-left: -10px;
-}
+
+
 
 
 
@@ -184,27 +188,10 @@ li {
 }
 
 
-.newstitle{
- position: absolute;
- color:rgb(246, 246, 246);
- margin-right: 20%;
- margin-left: 19%;
- font-size: 30px;
- font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
-}
 
 
-.newstitlemario{
-  position: absolute;
-  color: #000000;
-  margin-top: 4%;
-  margin-right: 20%;
-  margin-left: 25%;
-  font-size: 30px;
-  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 
- }
+
 
 
 
@@ -577,38 +564,16 @@ li {
  color:wheat; /*no va */
 }
 
-.laterali img{
- height: 3200px;
- width: 17%;
- max-width: 17%;
- position: absolute;
- margin-top: -25px;
- margin-left: -10px;
-}
-
-
 
 
 .lateralizelda img{
-  height: 2940px;
+  height: 1865px;
   width: 17%;
   max-width: 17%;
   position: absolute;
   margin-top: -25px;
   margin-left: -10px;
  }
-
- .lateraldzelda img{
-  height: 2940px;
-  width: 335px;
-  position: absolute;
-  margin-top: -1515px;
-  margin-left: 1215px;
- }
-
-
-
-
  .lateralimario img{
   height: 10000px;
   width: 17%;
@@ -617,6 +582,20 @@ li {
   margin-top: -25px;
   margin-left: -10px;
  }
+
+
+ .lateraldzelda img{
+  height: 1865px;
+  width: 17%;
+  max-width: 17%;
+  position: absolute;
+  margin-top: -775px;
+  margin-left: 1225px;
+ }
+
+
+
+
 
  .lateraldmario img{
   height: 1000px;
@@ -665,15 +644,14 @@ body{
 .newstitle{
  position: absolute;
  color: white ;
- margin-top: 4%;
- margin-right: 20%;
- margin-left: 22%;
+ margin-top: 1%;
+ margin-right: 0%;
+ margin-left: 18%;
  font-size: 30px;
  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ margin-bottom: 20px;
 
 }
-
-
 
 .indice {
   font-size: 30px;
